@@ -1,0 +1,41 @@
+# ninja log v5
+1	214	0	CMakeFiles/database	844050063c11d12d
+519	854	7126078189490482	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_dbgmcu.o	abc451ed208bf985
+1	214	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/tmp/Project/Target_1/CMakeFiles/database	844050063c11d12d
+9	470	7126078185963686	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/OLED.o	1262306a3d579103
+3	298	7126078184465794	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/LED.o	c516ec340b1c9561
+163	549	7126121907870978	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/out/Project/Target_1/Project.axf	a25d038f1d72e4b0
+1313	1805	7126078199446150	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_usart.o	412cbe638e0a134a
+69	350	7126078184932575	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/misc.o	b2f756f9199affc8
+1560	1948	7126078200927494	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Start/system_stm32f10x.o	a3ee58a42cd9dfb0
+2	161	7126121903974423	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/Serial.o	25b5a3ee3d769cb7
+25	415	7126078185108348	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/Key.o	233f340787904286
+17	380	7126078185188582	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/ADC.o	2491842171cf5821
+77	518	7126078185692644	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_dac.o	68a6e28e29cbe02d
+1806	2169	7126078203118205	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/User/stm32f10x_it.o	3d2183b5438cf3b7
+85	532	7126078186168064	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_bkp.o	bb598c8d2cd10af9
+351	874	7126078189766529	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_flash.o	4abdcfb18c4c4ea2
+381	844	7126078189430479	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_cec.o	2df06e69ac3db8a3
+1796	2115	7126078202562929	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/User/main.o	e91aeb70df140bff
+416	897	7126078189851827	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_crc.o	5b912541f348720d
+471	916	7126078190248150	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_exti.o	85069c5f9b1cd417
+300	956	7126078190182860	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_adc.o	9888a1ec271618c8
+533	965	7126078190335335	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_dma.o	97c83a00cb29a1f6
+436	1240	7126078193377036	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_can.o	f08db747b4755b87
+966	1250	7126078193986015	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_pwr.o	8dcf18da90a6dd34
+844	1312	7126078194011104	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Start/startup_stm32f10x_md.o	cf121526ec8f17e4
+957	1349	7126078194634377	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_iwdg.o	85a841125b72bd5f
+917	1462	7126078195684998	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_rtc.o	7581d6dd9e128da
+874	1495	7126078195910749	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_i2c.o	a2a7643616a9402
+855	1543	7126078196031448	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_fsmc.o	6bb49da2f324b44d
+1463	2016	7126078201363959	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_spi.o	4024c6672e29bc99
+897	1560	7126078196714897	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_gpio.o	2c7452f65da954a3
+1250	1718	7126078198412475	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_sdio.o	264e76fa338b7e62
+1240	1796	7126078198673388	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_rcc.o	2a8e632f68f391eb
+1496	1853	7126078199970094	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_wwdg.o	c7916eed7d92c02f
+1543	2017	7126078201594592	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Start/core_cm3.o	5434fdeda652739c
+1854	2164	7126078202942482	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/System/Delay.o	c2bf0f0555ecc9b2
+1718	2166	7126078202957583	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/System/DMA.o	bd3f5192ecc2807e
+1350	2276	7126078204293198	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_tim.o	5ef634801037065d
+0	145	0	CMakeFiles/database	844050063c11d12d
+0	145	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/tmp/Project/Target_1/CMakeFiles/database	844050063c11d12d
