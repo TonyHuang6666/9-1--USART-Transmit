@@ -1,5 +1,5 @@
 #include "stm32f10x.h"
-
+#include "OLED.h"
 void Serial_Initilize(void)
 {
 	//1.配置时钟
@@ -29,4 +29,24 @@ void Serial_SendByte(uint8_t data)
     USART_SendData(USART1, data);//data变量写入到USART1_DR寄存器中
     while (USART_GetFlagStatus(USART1, USART_FLAG_TXE) == RESET);//等待，直到发送完成，即TXE=1，TXE标志位置SET
     //标志位不需要手动清零，写入新数据时会自动清零
+}
+
+void Serial_SendString(uint8_t *str)
+{
+	while(*str != '\0')
+	{
+		Serial_SendByte(*str);
+		str++;
+	}
+}
+
+void Serial_SendArray(uint8_t *array, uint16_t length)
+{
+	uint16_t i,length;
+	length=sizeof(array)/sizeof(array[0]);//数组的总字节数除以单个元素的字节数，就可以得到数组的长度
+	OLED_ShowNum(2, 1, length, 3);
+	for(i = 0; i < length; i++)
+	{
+		Serial_SendByte(array[i]);
+	}
 }
