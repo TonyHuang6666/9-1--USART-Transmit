@@ -2,15 +2,16 @@
 
 void Serial_Initilize(void)
 {
+	//1.配置时钟
  	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
-	
+	//2.配置GPIO。TX用复用推挽输出；RX用浮空输入或者上拉输入，因为串口空闲状态为高电平
 	GPIO_InitTypeDef GPIO_InitStructure;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_9;
 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
-	
+	//3.配置串口
 	USART_InitTypeDef USART_InitStructure;
 	USART_InitStructure.USART_BaudRate = 9600;
 	USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
@@ -19,6 +20,7 @@ void Serial_Initilize(void)
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_Init(USART1, &USART_InitStructure);
+	//4.开启串口
 	USART_Cmd(USART1, ENABLE);
 }
 
