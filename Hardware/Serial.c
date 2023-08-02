@@ -1,5 +1,7 @@
 #include "stm32f10x.h"
 #include "OLED.h"
+#include "stdarg.h"
+#include "stdio.h"
 void Serial_Initilize(void)
 {
 	//1.配置时钟
@@ -40,14 +42,64 @@ void Serial_SendString(uint8_t *str)
 	}
 }
 
-void Serial_SendArray(uint16_t *array)
+void Serial_SendArray(uint8_t *array, uint16_t length)
 {
-	uint16_t i,length;
-	length=sizeof(array)/sizeof(array[0]);//在这里sizeof(array)返回的是array指针的大小
-	OLED_ShowNum(2, 1, sizeof(array), 3);
-	OLED_ShowNum(3, 1, sizeof(array[0]), 3);
+	uint16_t i;
 	for(i = 0; i < length; i++)
 	{
 		Serial_SendByte(array[i]);
 	}
 }
+/*
+作用是计算一个数的幂。它接收两个参数，一个是底数 base，一个是指数 exponent。
+函数内部使用一个循环来计算幂，循环次数为指数 exponent。在每次循环中，将 result 乘以底数 base，最后返回 result 的值。
+*/
+uint32_t Power(uint8_t base, uint8_t exponent)
+{
+	uint32_t result = 1;
+	uint8_t i;
+	for(i = 0; i < exponent; i++)
+	{
+		result *= base;
+	}
+	return result;
+}
+/*
+作用是将一个无符号整数 Number 以十进制形式发送出去。它接收两个参数，一个是要发送的数字 Number，一个是数字
+的位数 Length。函数内部使用一个循环来将数字的每一位发送出去。在每次循环中，先计算出当前位的数字，然后
+将其转换为 ASCII 码并发送出去。具体的转换方法是将当前位的数字除以 10 的 Length - i - 1 次方，
+然后对 10 取模，再加上字符 '0'
+*/
+void Serial_SendNumber(uint32_t Number,uint8_t Length)
+{
+	uint8_t i;
+	for(i = 0; i < Length; i++)
+	{
+		Serial_SendByte((Number / Power(10,Length - i - 1)) % 10 + '0');
+	}
+}
+
+//以下函数用于重定向printf函数,printf函数就是调用fputc函数一个个打印的
+int fputc(int ch, FILE *f)
+{
+	Serial_SendByte(ch);
+	return (ch);
+}
+
+// 这个函数的作用是将格式化的字符串通过串口发送出去
+void Serial_Printf(char *format,...)
+{
+	// 定义一个字符数组，用于存储格式化后的字符串
+	char String[100];
+	// 定义一个指向参数列表的指针
+	va_list arg;
+	// 初始化指针，指向可变参数列表
+	va_start(arg,format);
+	// 将可变参数列表中的参数按照指定格式格式化到字符数组中
+	vsprintf(String,format,arg);
+	// 结束可变参数列表的访问
+	va_end(arg);
+	// 将格式化后的字符串通过串口发送出去
+	Serial_SendString(String);
+}
+
