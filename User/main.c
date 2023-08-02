@@ -7,9 +7,10 @@ int main(void)
 {
 	OLED_Init();
 	Serial_Initilize();
-	Serial_SendByte(0x41);
+	
 	while(1)
 	{
-		
+		Serial_SendByte(0x41);
+		Delay_ms(10000);
 	}
 }
