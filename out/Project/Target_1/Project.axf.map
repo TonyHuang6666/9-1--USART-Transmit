@@ -2572,7 +2572,7 @@ Image component sizes
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
        556         28          0          0          0       7043   OLED.o
-       112          4          0          0          0       2652   Serial.o
+       112          4          0          0          0       2654   Serial.o
         16          0          0          0          0        578   main.o
         64         26        236          0       1536       1024   startup_stm32f10x_md.o
        216          0          0          0          0       6341   stm32f10x_gpio.o
@@ -2582,7 +2582,7 @@ Image component sizes
        240         20          0          0          0       2875   system_stm32f10x.o
 
     ----------------------------------------------------------------------
-      1580        106        274          0       1536      39547   Object Totals
+      1580        106        274          0       1536      39549   Object Totals
          0          0         16          0          0          0   (incl. Generated)
          8          0          2          0          0          0   (incl. Padding)
 
@@ -2630,8 +2630,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      1830        122        274          0       1632      39815   Grand Totals
-      1830        122        274          0       1632      39815   ELF Image Totals
+      1830        122        274          0       1632      39817   Grand Totals
+      1830        122        274          0       1632      39817   ELF Image Totals
       1830        122        274          0          0          0   ROM Totals
 
 ==============================================================================

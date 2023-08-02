@@ -2,7 +2,7 @@
 
 void Serial_Initilize(void)
 {
- RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
+ 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
 	
 	GPIO_InitTypeDef GPIO_InitStructure;
@@ -19,7 +19,6 @@ void Serial_Initilize(void)
 	USART_InitStructure.USART_StopBits = USART_StopBits_1;
 	USART_InitStructure.USART_WordLength = USART_WordLength_8b;
 	USART_Init(USART1, &USART_InitStructure);
-	
 	USART_Cmd(USART1, ENABLE);
 }
 

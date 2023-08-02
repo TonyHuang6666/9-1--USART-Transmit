@@ -1,7 +1,7 @@
 # ninja log v5
-1	214	0	CMakeFiles/database	844050063c11d12d
+1	65	0	CMakeFiles/database	844050063c11d12d
 519	854	7126078189490482	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_dbgmcu.o	abc451ed208bf985
-1	214	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/tmp/Project/Target_1/CMakeFiles/database	844050063c11d12d
+1	65	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/tmp/Project/Target_1/CMakeFiles/database	844050063c11d12d
 9	470	7126078185963686	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/OLED.o	1262306a3d579103
 3	298	7126078184465794	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/LED.o	c516ec340b1c9561
 163	549	7126121907870978	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/out/Project/Target_1/Project.axf	a25d038f1d72e4b0
@@ -37,5 +37,5 @@
 1854	2164	7126078202942482	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/System/Delay.o	c2bf0f0555ecc9b2
 1718	2166	7126078202957583	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/System/DMA.o	bd3f5192ecc2807e
 1350	2276	7126078204293198	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Library/stm32f10x_tim.o	5ef634801037065d
-0	145	0	CMakeFiles/database	844050063c11d12d
-0	145	0	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/tmp/Project/Target_1/CMakeFiles/database	844050063c11d12d
+2	116	7126427042028649	CMakeFiles/Project.dir/D_/OneDrive_-_email.szu.edu.cn/Codes/Github_insiders/Examples/9-1_Usart_Transmit/Hardware/Serial.o	25b5a3ee3d769cb7
+117	458	7126427045447770	D:/OneDrive - email.szu.edu.cn/Codes/Github insiders/Examples/9-1 Usart Transmit/out/Project/Target_1/Project.axf	a25d038f1d72e4b0
