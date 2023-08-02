@@ -17,8 +17,9 @@ int main(void)
 		//Serial_SendArray(array,16);
 		Serial_SendString(str);
 		Serial_SendNumber(123456789,10);
-		printf("Num=%d\n",12345);
+		//printf("Num=%d\n",12345);
 		Serial_Printf("Num=%d\r\n",666);
+		Serial_Printf("你好，世界");
 		Delay_ms(1000);
 	}
 }
