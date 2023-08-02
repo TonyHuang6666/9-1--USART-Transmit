@@ -40,11 +40,12 @@ void Serial_SendString(uint8_t *str)
 	}
 }
 
-void Serial_SendArray(uint8_t *array, uint16_t length)
+void Serial_SendArray(uint16_t *array)
 {
 	uint16_t i,length;
-	length=sizeof(array)/sizeof(array[0]);//数组的总字节数除以单个元素的字节数，就可以得到数组的长度
-	OLED_ShowNum(2, 1, length, 3);
+	length=sizeof(array)/sizeof(array[0]);//在这里sizeof(array)返回的是array指针的大小
+	OLED_ShowNum(2, 1, sizeof(array), 3);
+	OLED_ShowNum(3, 1, sizeof(array[0]), 3);
 	for(i = 0; i < length; i++)
 	{
 		Serial_SendByte(array[i]);
